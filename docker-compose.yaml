@@ -6,5 +6,5 @@ services:
     restart: always
     ports:
       - "50007:5000"
-    network_mode: 
+    network_mode: bridge
     command: 
