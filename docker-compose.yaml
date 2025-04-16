@@ -7,4 +7,4 @@ services:
     ports:
       - "50007:5000"
     network_mode: bridge
-    command: 
+    command: ENV http_proxy=http://judy:judy@85.237.207.219:38757 https_proxy=http://judy:judy@85.237.207.219:38757 ALL_PROXY=http://judy:judy@85.237.207.219:38757
