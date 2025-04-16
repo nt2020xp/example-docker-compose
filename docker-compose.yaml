@@ -2,7 +2,7 @@ services:
   allinone:
     image: wuenci514/fastapi-4gtv:1.0.5
     container_name: allinone
-    privileged: 
+    privileged: true
     restart: always
     ports:
       - "50007:5000"
