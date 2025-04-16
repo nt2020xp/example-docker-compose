@@ -1,6 +1,6 @@
 services:
   allinone:
-    image: mybtjson/fastapi-4gtv:1.0.5
+    image: wuenci514/fastapi-4gtv:1.0.5
     container_name: allinone
     privileged: true
     restart: always
