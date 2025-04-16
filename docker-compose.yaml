@@ -2,9 +2,9 @@ services:
   allinone:
     image: wuenci514/fastapi-4gtv:1.0.5
     container_name: allinone
-    privileged: true
+    privileged: 
     restart: always
     ports:
       - "50007:5000"
-    network_mode: bridge
+    network_mode: 
     command: 
