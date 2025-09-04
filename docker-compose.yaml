@@ -1,7 +1,10 @@
 services
+    allinone:
     image: youshandefeiyang/allinone
     container_name: allinone
     privileged: true
     restart: unless-stopped
     ports:
       - "35455:35455"
+    networks:
+      - my-network
