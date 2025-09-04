@@ -1,13 +1,4 @@
-services:
-  av3a-assistant:
-    image: youshandefeiyang/av3a-assistant:amd64
-    container_name: av3a-assistant
-    privileged: true
-    restart: unless-stopped
-    ports:
-      - "35442:35442"
-
-  allinone:
+services
     image: youshandefeiyang/allinone
     container_name: allinone
     privileged: true
