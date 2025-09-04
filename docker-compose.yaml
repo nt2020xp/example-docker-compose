@@ -1,5 +1,4 @@
-services
-    allinone:
+services：
     image: youshandefeiyang/allinone
     container_name: allinone
     privileged: true
