@@ -8,7 +8,7 @@ services:
     network_mode: host
     environment:
       - mport=3566
-      - mhost=http://10.0.0.134:3566
+      - mhost=http://2026.koyeb.app:3566
       - muserId=
       - mtoken=
       # === 节目更新间隔（小时）===
